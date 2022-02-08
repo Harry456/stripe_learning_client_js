@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(202, 202, 202, 0.75);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+#checkout-wrapper .main .checkout-form .card-details .pay {
+  display: inline-block;
+  padding: 1rem 2.75rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  border: 1px solid #fe316a;
+  background: #fe316a;
+  transition: all 0.25s ease-in;
+  border-radius: 0.75rem;
+}
+
+#checkout-wrapper .main .checkout-form .card-details .pay:hover {
+  background-color: rgba(254, 49, 106, 0.8);
+}
+
+.title {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+
+#checkout-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#checkout-wrapper .main {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  background: rgba(245, 245, 245, 0.8);
+  border-radius: 1rem;
+}
+#checkout-wrapper .main .checkout-form {
+  width: 100%;
+}
+#checkout-wrapper .main .checkout-form .card-title {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+#checkout-wrapper .main .checkout-form .card-details .cardNumber #card-number {
+  padding: 1.5rem 1rem;
+  border: 1px solid rgba(254, 49, 106, 0.8);
+  border-radius: 0.5rem;
+}
+#checkout-wrapper .main .checkout-form .card-details .card-expiry-cvv {
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+#checkout-wrapper .main .checkout-form .card-details .card-expiry-cvv #card-expiry {
+  padding: 1rem;
+  border: 1px solid rgba(254, 49, 106, 0.8);
+  border-radius: 0.5rem;
+}
+#checkout-wrapper .main .checkout-form .card-details .card-expiry-cvv #card-cvc {
+  padding: 1rem;
+  border: 1px solid rgba(254, 49, 106, 0.8);
+  border-radius: 0.5rem;
+}
+#checkout-wrapper .main .checkout-form .card-details .errorMsg {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: red;
+}
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */

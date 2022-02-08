@@ -1,0 +1,15 @@
+{
+  "id": "seti_1KIZ8YSIUZLasS08YEkX40mT",
+  "object": "setup_intent",
+  "cancellation_reason": null,
+  "client_secret": "seti_1KIZ8YSIUZLasS08YEkX40mT_secret_KyWAijJk99PifcflzftBNtO0ZilcPua",
+  "created": 1642341074,
+  "description": null,
+  "last_setup_error": null,
+  "livemode": false,
+  "next_action": null,
+  "payment_method": "pm_1KIZ8ZSIUZLasS08izSCPeNX",
+  "payment_method_types": ["card"],
+  "status": "succeeded",
+  "usage": "off_session"
+}

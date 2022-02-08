@@ -1,0 +1,29 @@
+// Maps - colors.
+$colors: (
+  // primary: rgba(0, 0, 0, 1),
+  // primary-overlay: rgba(0, 0, 0, 1),
+  secondary: rgba(0, 0, 0, 1),
+  secondary-overlay: rgba(0, 0, 0, 1),
+  primary: rgba(254, 49, 106, 1),
+  primaryOverlay: rgba(254, 49, 106, 0.8)
+);
+
+@function color($colorName) {
+  @return map-get($colors, $colorName);
+}
+
+// Inheritance
+%btn {
+  display: inline-block;
+  padding: 1rem 2.75rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  border: 1px solid color(primary);
+  background: color(primary);
+  transition: all 0.25s ease-in;
+  border-radius: 0.75rem;
+}
+
+%btn_hover {
+  background-color: color(primaryOverlay);
+}

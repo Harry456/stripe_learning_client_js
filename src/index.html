@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./scss/main.scss">
+	<script src="https://js.stripe.com/v3/"></script>
+	<title>Home Page</title>
+</head>
+
+<body>
+
+	<section id="checkout-wrapper">
+
+		<div class="main">
+			<form class="checkout-form">
+				<h2 class="title">Checkout</h2>
+				<div class="card-details">
+					<!-- First row -->
+					<div class="cardNumber">
+						<!-- Mount Stripe Elements -->
+						<p class="card-title">card number</p>
+						<div id="card-number"></div>
+					</div>
+					<!-- Second row -->
+					<div class="card-expiry-cvv">
+						<div class="expiry">
+							<p class="card-title">card expiry</p>
+							<div id="card-expiry"></div>
+						</div>
+						<div class="cvc">
+							<p class="card-title">card cvv</p>
+							<div id="card-cvc"></div>
+						</div>
+					</div>
+
+					<button class="btn pay">pay - $100.00</button>
+					<div class="errorMsg"></div>
+				</div>
+			</form>
+		</div>
+	</section>
+
+
+	<script src="./js/index.js"></script>
+</body>
+
+</html>

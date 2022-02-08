@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(202, 202, 202, 0.75);
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
